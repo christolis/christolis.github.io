@@ -1,0 +1,72 @@
+body {
+    background: rgb(40,40,42);
+    background: linear-gradient(90deg, rgba(40,40,42,1) 0%, rgba(55,53,35,1) 100%);
+    color: #fff;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.nav-masthead .nav-link {
+	font-weight: 600;
+	color: rgba(255, 255, 255, .7);
+	background-color: transparent;
+	border-bottom: .25rem solid transparent;
+    margin-left: 1vh;
+}
+
+@media(min-width: 48em) {
+    .masthead-brand {
+        float: left
+    }
+
+    .nav-masthead {
+        float: right
+    }
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+	border-bottom-color: rgba(255, 255, 255, .25);
+}
+p, li, small {
+    font-family: 'Assistant', sans-serif !important;
+}
+
+.active {
+	border-bottom-color: rgba(255, 255, 255, 1) !important;
+}
+
+section {
+    display: none;
+}
+.nav-masthead .active {
+	color: #fff;
+	border-bottom-color: #fff;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+
+.fa {
+  font-size: 50px;
+  width: 50px;
+  margin-right: 1vh;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
